@@ -1,0 +1,91 @@
+body {
+  margin-top: 0px;
+}
+
+h1 {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  padding: 10px;
+}
+
+p {
+  width: 400px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: cursive;
+  padding: 10px;
+}
+
+h3 {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  padding: 10px;
+}
+
+figure {
+  margin-top: -15px;
+}
+
+figure > pre {
+  height: 450px;
+  width: 450px;
+  margin: auto;
+  border: 5px solid #D5D50E;
+}
+
+pre {
+  margin: auto;
+}
+
+
+div {
+  float: left;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
+
+div.empty {
+  background-color: #363696;
+  color: blue;
+}
+
+div.star {
+  background-color: #363696;
+  font-size: 24px;
+}
+
+div.hole {
+  background-color: #363696;
+  font-size: 24px;
+}
+
+div.snake {
+  background-color: olive;
+  color: red;
+}
+
+div.apple {
+  font-size: 24px;
+  text-align: center;
+  background-color: #363696;
+  color: #00FF00;
+}
+
+figure:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+h4 {
+  padding: 15px;
+  width: 200px;
+  margin: auto;
+  font-style: oblique;
+  text-align: center;
+}

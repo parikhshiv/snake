@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+  </head>
+  <body>
+    <script src="jquery-2.1.1.js"></script>
+
+    <script src="snake.js"></script>
+    <script src="snake-view.js"></script>
+
+    <h1>Snake Game</h1>
+    <figure id="container">
+  </figure>
+    <p>Eat 30 apples to win! But avoid the other snakes...</p>
+    <h3>Arrow keys to maneuver, P to pause.</h3>
+    <h4>A Shiv Parikh Production</h4>
+
+    <script>
+      var $container = $("#container");
+      var game = new window.Game.View(new window.Game.Board(), $container);
+
+    </script>
+  </body>
+</html>
